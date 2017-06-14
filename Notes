@@ -1,0 +1,22 @@
+On save & close, check mode ?
+
+On size dialog, have RETURN do OK
+
+Autosizing of screen
+	Looks like you cannot do it until after you have called main
+	pass new_window x & y rather than size and autosize on first call
+
+Switch from GtkItemFactory to GtkUIManager
+	Disable or eliminate Edit menu
+	Make modes radio buttons
+
+Print consider using cairo alpha
+	http://cairographics.org/tutorial/
+
+Text data file format
+CS
+MODE
+SIZEX SIZEY
+X Y HSUM VSUM
+...
+
